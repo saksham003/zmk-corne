@@ -1,1 +1,1 @@
-# zmk-acorn
+# Astrek Choc corne firmware
