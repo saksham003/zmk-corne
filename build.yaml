@@ -5,7 +5,7 @@
 # the `include` property, e.g:
 #
 # board: [ "nice_nano_v2" ]
-# shield: [ "corne_left", "corne_right" ]
+# shield: [ "corne_lt", "corne_rt" ]
 # include:
 #   - board: bdn9_rev2
 #   - board: nice_nano_v2
@@ -16,24 +16,25 @@
 # board: [seeeduino_xiao_ble]
 # shield:
 #   - hammer40
-#   - hana_central_left
-#   - hana_peripheral_left
-#   - hana_peripheral_right
+#   - hana_central_lt
+#   - hana_peri_lt
+#   - hana_peri_rt
 include:
   #- board: seeeduino_xiao_ble
   #  shield: settings_reset
-  - board: nice_nano_v2
-    shield: settings_reset
+
     # Corne Wireless
   #- board: nice_nano_v2
   #  shield: accorne_central_dongle
   #  snippet: studio-rpc-usb-uart
   #- board: nice_nano_v2
-  #  shield: accorne_peripheral_left
+  #  shield: accorne_peri_lt
   #  snippet: studio-rpc-usb-uart
   - board: nice_nano_v2
-    shield: accorne_central_left
-    snippet: studio-rpc-usb-uart
+    shield: accorne_central_lt
+#    snippet: studio-rpc-usb-uart
   - board: nice_nano_v2
-    shield: accorne_peripheral_right
-    snippet: studio-rpc-usb-uart
+    shield: accorne_peri_rt
+#    snippet: studio-rpc-usb-uart
+  - board: nice_nano_v2
+    shield: settings_reset
