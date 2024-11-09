@@ -5,9 +5,9 @@ type: shield
 #url:
 exposes: [i2c_oled, spi_oled]
 siblings:
-  - accorne_central_dongle
+#  - accorne_central_dongle
   - accorne_central_left
-  - accorne_peripheral_left
+ # - accorne_peripheral_left
   - accorne_peripheral_right
 features:
   - keys
